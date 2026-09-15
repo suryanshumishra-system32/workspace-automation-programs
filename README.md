@@ -8,4 +8,7 @@ Click on any folder below to view the respective script and its dedicated docume
 
 *   **[Janitor V1](./janitor_v1/)**
     *   *The Story:* My cleanup utility built by translating conceptual pointers from Gemini into linear logic.
-    *   *Tech Used:* `os module`, `shutil module`, sequential `if/elif` blocks.
+    *   *Tech Used:* `os module`, `shutil module`, sequential `if/elif` blocks
+*   **[Janitor V2](./janitor_v2)**
+    *   *The Story:* I realized that the first version was very unoptimized as it used a lot of boilerplate code and was simply not scalable.
+    *   *Tech Used:* `os module`, `shutil module`, `Dictionary` and `Loops` 
