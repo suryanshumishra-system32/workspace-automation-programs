@@ -12,7 +12,7 @@ Click on any folder below to view the respective script and its dedicated docume
 *   **[Janitor V2](./janitor_v2)**
     *   *The Story:* I realized that the first version was very unoptimized as it used a lot of boilerplate code and was simply not scalable.
     *   *Tech Used:* `os module`, `shutil module`, `Dictionary` and `Loops`
-*   **[Sorta (Project_Sorter)](./Sorta (Project_Sorter))**
+*   **[Sorta (Project_Sorter)](Sorta (Project_Sorter))**
     *   *The Story:* My organization utility built to organize asset heavy creative projects into folders (e.g., handling files named "sunlight", "japan", or "the fall").
       Built this mainly because my music folder was pretty cluttered up with projects and renders......
     *   *Tech Used:* `os module`, `shutil module`, `Loops` and interactive conditional flags.
