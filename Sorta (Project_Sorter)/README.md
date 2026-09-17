@@ -3,6 +3,17 @@
 A command-line automation tool designed to streamline creative and developmental asset management.
 The script scans the active folder for specific project keywords and dynamically bundles all matching files into dedicated folders.
 
+## Implementation and logic
+1. **Targeting** : reads all files in the directory using `os.listdir()` function.
+2. **Inputting** : takes input from the user for the project name. 
+3. **Creation** : creates a folder named exactly what the user inputted in the same directory the
+   program is present in.
+4. **Exclusion** : excludes folders (using `os.path.isdir()`) and the program file itself from the process of moving.
+5. **Comparison** : compares a lowered form of the name of the files in the directory and a lowered form of the project name the user inputted (to make the process case insensitive).
+6. **Moving** : moves the file to its respective folder using `shutil.move()` and `os.path.join()`.
+7. **Choice Input** : asks the user for their choice, whether to continue sorting (running the program once more) or end sorting (exiting the program).
+
+
 ## How to Run and Use
 
 ### Prerequisites
